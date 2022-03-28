@@ -5,19 +5,386 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="header">
-            
+        <div class="header__header center-margin">
+            <a href="#" class="header__logo">
+                <img class="logo__header-img" src="img/logo.png" alt="Gorgadze">
+            </a>
+            <button type="button" class="header__search">
+                <svg class="search__icon" width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="search__icon__color" d="M10.0074 0.062809C4.97906 0.062809 0.888062 4.14262 0.888062 9.1573C0.888062 14.172 4.9791 18.2518 10.0074 18.2518C15.0358 18.2518 19.1269 14.172 19.1269 9.1573C19.1269 4.14262 15.0358 0.062809 10.0074 0.062809ZM10.0074 16.7568C5.8033 16.7568 2.38304 13.3475 2.38304 9.15726C2.38304 4.96682 5.8033 1.55775 10.0074 1.55775C14.2116 1.55775 17.6318 4.96682 17.6318 9.15726C17.6319 13.3475 14.2116 16.7568 10.0074 16.7568Z" fill="#ECECEC"/>
+                    <path class="search__icon__color" d="M21.3485 19.4161L16.44 14.5325C16.1472 14.2415 15.674 14.2427 15.3827 14.5353C15.0917 14.828 15.093 15.3012 15.3855 15.5925L20.294 20.4761C20.44 20.6211 20.6304 20.6936 20.8213 20.6936C21.0134 20.6936 21.2052 20.6201 21.3513 20.4733C21.6423 20.1805 21.641 19.7074 21.3485 19.4161Z" fill="#ECECEC"/>
+                </svg>
+            </button>
+            <ul class="header__info-list">
+                <li class="info-list__info-element"><a class="info-element__reference" href="#">О нас</a></li>
+                <li class="info-list__info-element"><a class="info-element__reference" href="#">Товары и услуги</a></li>
+                <li class="info-list__info-element"><a class="info-element__reference" href="#">Контакты</a></li>
+                <li class="info-list__info-element"><a class="info-element__reference" href="#">Новости</a></li>
+            </ul>
+            <div class="header__language-select">
+                <a class="language-select__lang" href="#">
+                    <div class="lang__text">
+                        Ro
+                    </div>
+                    <div class="lang__point">
+                        
+                    </div>
+                </a>
+                <a class="language-select__lang language-select__lang__selected" href="#">
+                    <div class="lang__text lang__text__selected">
+                        Рус
+                    </div>
+                    <div class="lang__point lang__point__selected">
+                        
+                    </div>
+                </a>
+                <div class="header__phone">
+                    + (373) 67 050 768
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="content__text">
+                <h1 class="text__title">
+                    Перепелинная продукция премиум класса
+                </h1>
+                <p class="text__description">
+                    Это продукция, в первую очередь, не содержащая консервантов,
+                    искусственных добавок и генетически модифицированных организмов.
+                    Соблюдение технических и экологических норм в процессе
+                    ее производства тщательно контролируется.
+                </p>
+                <ul class="text__list-desc">
+                    <li class="list-desc__elem">Доставляется свежей</li>
+                    <li class="list-desc__elem">Двойная сертификация</li>
+                    <li class="list-desc__elem">Без заморозки, ГМО и консервантов</li>
+                </ul>
+                <a class="text-btn" href="#">
+                    Заказать перепелов
+                </a>
+            </div>
+            <img src="img/Image.png" alt="" class="content__img">
+
+            </img>
+        </div>
+        <div class="header__deliver adaptive">
+            <div class="deliver__box">
+                <img class="box__img" src="img/Box.png" alt="">
+                <div class="box__desc-deliv">
+                    <span class="desc-deliv__title">
+                        Доставка товара
+                    </span>
+                    <p class="desc-deliv__text">
+                        Cras ante et tristique bibendum. Turpis ullamcorper aliquam volutpat, quam. Vitae nisi arcu nam at pellentesque pellentesque. Neque, ullamcorper 
+                    </p>
+                </div>
+            </div>
+            <div class="deliver__box">
+                <img class="box__img" src="img/Box.png" alt="">
+                <div class="box__desc-deliv">
+                    <span class="desc-deliv__title">
+                        Услуга номер два
+                    </span>
+                    <p class="desc-deliv__text">
+                        Cras ante et tristique bibendum. Turpis ullamcorper aliquam volutpat, quam. Vitae nisi arcu nam at pellentesque pellentesque. Neque, ullamcorper 
+                    </p>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-
+        <div class="main">
+            <div class="main__about-us adaptive">
+                <img class="about-us__pic" src="img/Mask.png" alt="">
+                <div class="about-us__adv-text">
+                    <div class="adv-text__title parag__title">
+                        <img class="title__pic" src="img/TitleVector.png" alt="">
+                        <h2 class="title__text">
+                            О нас
+                        </h2>
+                    </div>
+                    <p class="adv-text__paragraph">
+                        Cras ante et tristique bibendum. Turpis ullamcorper aliquam volutpat, quam. Vitae nisi arcu nam at pellentesque pellentesque. Neque, ullamcorper volutpat eget porttitor bibendum porttitor. Auctor quam augue venenatis dolor.
+                    </p>
+                    <p class="adv-text__paragraph">
+                        Faucibus non ipsum velit pretium in erat ipsum. Vulputate lectus sed in lobortis morbi. Consequat porttitor vitae quisque magna habitant turpis posuere. Hendrerit urna diam id lectus massa amet risus adipiscing. Ut cras nunc, pellentesque consectetur morbi pretium non ut facilisi. A et ultricies neque, vel dolor euismod phasellus pretium. Ac nibh odio pellentesque quis neque netus venenatis at. Semper consectetur aliquam amet magna maecenas. Imperdiet habitasse porta et sagittis eu justo, cras. In tincidunt est enim, tortor. Varius et cum id integer eget non urna, sem tincidunt. At ornare scelerisque massa tortor sed. Tincidunt habitasse aliquet sed sit. Maecenas faucibus nulla id a.
+                    </p>
+                    <p class="adv-text__paragraph">
+                        Orci, sem et quis etiam amet enim. Morbi tellus tellus, neque neque nunc pharetra massa. Eget molestie nunc leo cras sit cursus. In ullamcorper odio nunc, cursus. Amet lectus sed eu molestie pulvinar orci sit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main__our-offers">
+            <div class="our-offers__title parag__title">
+                <img class="title__pic" src="img/TitleVector.png" alt="">
+                <h2 class="title__text">
+                    Что мы предлагаем
+                </h2>
+            </div>
+            <div class="our-offers__offers-list">
+                <button class="offers-list__prev-btn"></button>
+                <div class="offers-list__cards adaptive">
+                    <div class="cards__card">
+                        <img class="card__img" src="img/pic1.png" alt="">
+                        <div class="card__name">
+                            Яйца перепелов
+                        </div>
+                        <ul class="card__list-adv">
+                            <li class="list-adv__elem">
+                                Свежие яйца
+                            </li>
+                            <li class="list-adv__elem">
+                                Инкубационные яйца
+                            </li>
+                            <li class="list-adv__elem">
+                                Маринованные яйца
+                            </li>
+                        </ul>
+                        <div class="card__bottom">
+                            <div class="bottom__cost">
+                                50 mdl. / шт
+                            </div>
+                            <a class="bottom__ref" href="#">
+                                детали
+                            </a>
+                            <a class="bottom__ref bottom__arrow" href="#">
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards__card">
+                        <img class="card__img" src="img/pic2.png" alt="">
+                        <div class="card__name">
+                            Перепела
+                        </div>
+                        <ul class="card__list-adv">
+                            <li class="list-adv__elem">
+                                Суточные перепела
+                            </li>
+                            <li class="list-adv__elem">
+                                Двухнедельные перепела
+                            </li>
+                            <li class="list-adv__elem">
+                                Двухмесячные перепела
+                            </li>
+                        </ul>
+                        <div class="card__bottom">
+                            <div class="bottom__cost">
+                                50 mdl. / шт
+                            </div>
+                            <a class="bottom__ref" href="#">
+                                детали
+                            </a>
+                            <a class="bottom__ref bottom__arrow" href="#">
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards__card">
+                        <img class="card__img" src="img/pic3.png" alt="">
+                        <div class="card__name">
+                            Мясо перепелов
+                        </div>
+                        <ul class="card__list-adv">
+                            <li class="list-adv__elem">
+                                Копченые тушки
+                            </li>
+                            <li class="list-adv__elem">
+                                Свежие тушки
+                            </li>
+                            <li class="list-adv__elem">
+                                Разделанные перепела
+                            </li>
+                        </ul>
+                        <div class="card__bottom">
+                            <div class="bottom__cost">
+                                50 mdl. / шт
+                            </div>
+                            <a class="bottom__ref" href="#">
+                                детали
+                            </a>
+                            <a class="bottom__ref bottom__arrow" href="#">
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="offers-list__prev-btn"></button>
+            </div>
+            <a href="#" class="offers-list__reference">
+                Перейти ко всем товарам>>>
+            </a>
+        </div>
+        <div class="main__advantages">
+            <div class="advantages__title parag__title">
+                <img class="title__pic" src="img/TitleVector.png" alt="">
+                <h2 class="title__text">
+                    Преимущества
+                </h2>
+            </div>
+            <div class="advantages__advantages-list adaptive">
+                <div class="advantages-list__border">
+                    <div class="advantages-list__advantage">
+                        <img class="advantage__pic" src="img/medal.png" alt="">
+                        <div class="advantage__title">
+                            Risus sagittis et vitae in et nam.
+                        </div>
+                        <div class="advantage__text">
+                            Eleifend accumsan, adipiscing pulvinar turpis orci. Sed leo egestas aliquam sit tortor ultrices. Convallis pulvinar lacus, pretium leo, risus. In quis congue pellentesque diam est purus mauris. Imperdiet donec quam ac elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages-list__border">
+                    <div class="advantages-list__advantage">
+                        <img class="advantage__pic" src="img/shield.png" alt="">
+                        <div class="advantage__title">
+                            Scelerisque faucibus.
+                        </div>
+                        <div class="advantage__text">
+                            Nisi, non eget nulla quis id mi in venenatis nulla. Quis tincidunt quisque nulla enim. Integer purus dignissim enim faucibus. Diam lectus non malesuada tempus tristique. Arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages-list__border">
+                    <div class="advantages-list__advantage">
+                        <img class="advantage__pic" src="img/star.png" alt="">
+                        <div class="advantage__title">
+                            Condimentum.
+                        </div>
+                        <div class="advantage__text">
+                            Tellus quis nulla lorem imperdiet habitasse. Sed sed a mauris, purus at massa facilisis scelerisque mauris. Amet eu orci odio.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__reviews">
+            <div class="reviews__title parag__title">
+                <img class="title__pic" src="img/TitleVector.png" alt="">
+                <h2 class="title__text">
+                    Отзывы о компании
+                </h2>
+            </div>
+            <div class="reviews__reviews-list adaptive">
+                <div class="reviews__review-border">
+                    <div class="reviews-list__card-review">
+                        <div class="card-review__title">
+                            Savannah Nguyen
+                        </div>
+                        <div class="card-review__time">
+                            04 сентября 2022
+                        </div>
+                        <div class="card-review__text">
+                            Очень нравится этот магазин. Всегда в наличии есть разнообразный комбикорм,зерно,премиксы. Отзывчивый персонал и самое главное не дорого.
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__review-border">
+                    <div class="reviews-list__card-review">
+                        <div class="card-review__title">
+                            Savannah Nguyen
+                        </div>
+                        <div class="card-review__time">
+                            04 сентября 2022
+                        </div>
+                        <div class="card-review__text">
+                            Качество товара,приобретенного в данном магазине находится на хорошем уровне. Всегда все есть в наличии. Очень милые люди,которые посоветуют и помогут выбрать. Всем рекомендую.
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__review-border">
+                    <div class="reviews-list__card-review">
+                        <div class="card-review__title">
+                            Savannah Nguyen
+                        </div>
+                        <div class="card-review__time">
+                            04 сентября 2022
+                        </div>
+                        <div class="card-review__text">
+                            Являюсь постоянным покупателем.Очень доволен.Большой выбор корма.Нужный мне корм всегда есть.Внимательные продавцы.Рекомендую.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__parteners">
+            <div class="parteners__title parag__title">
+                <img class="title__pic" src="img/TitleVector.png" alt="">
+                <h2 class="title__text">
+                    Наши партнёры
+                </h2>
+            </div>
+            <div class="parteners__info">
+                Eleifend accumsan, adipiscing pulvinar turpis orci. Sed leo egestas aliquam sit tortor ultrices. Convallis pulvinar lacus, pretium leo, risus. In quis congue pellentesque diam est purus mauris. Imperdiet donec quam ac elit.
+            </div>
+            <div class="parteners__partener-list adaptive">
+                <img class="partener-list__pic" src="img/Google.png" alt="">
+                <img class="partener-list__pic" src="img/microsoft.png" alt="">
+                <img class="partener-list__pic" src="img/Uber.png" alt="">
+                <img class="partener-list__pic" src="img/airbnb.png" alt="">
+                <img class="partener-list__pic" src="img/wired.png" alt="">
+                <img class="partener-list__pic" src="img/Stripe.png" alt="">
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="footer__top-footer adaptive">
+            <img class="top-footer__logo" src="img/logoFooter.png" alt="">
+            <div class="top-footer__phone-block">
+                <span class="phone-block__title footer__title">
+                    Телефон
+                </span>
+                <span class="phone-block__phone footer__text">
+                    + 373 69 211 439
+                </span>
+            </div>
+            <div class="top-footer__adres-block">
+                <span class="adres-block__title footer__title">
+                    Адрес
+                </span>
+                <span class="adres-block__adres footer__text">
+                    Str-la Piersicului 9/0, Mun. Anenii Noi, CP 0967
+                </span>
+            </div>
+            <div class="top-footer__pocht-block">
+                <span class="pocht-block__title footer__title">
+                    Почта
+                </span>
+                <span class="pocht-block__pocht footer__text">
+                    steve.tremblay@gmail.com
+                </span>
+            </div>
+            <div class="top-footer__social-block">
+                <a class="social-block__inst social-block__ref" href="#">
+                    <img src="img/inst.png" alt="">
+                </a>
+                <a class="social-block__fabo social-block__ref" href="#">
+                    <img src="img/face.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__border">
+        </div>
+        <div class="footer__bottom-footer">
+            <div class="bottom-footer__conf-politic">
+                Политика конфеденциальности
+            </div>
+            <div class="bottom-footer__develop-by">
+                <span class="develop-by__text">
+                    develop by
+                </span>
+                <span class="develop-by__developer-name">
+                    Studio WebMaster, 2021
+                </span>
+                <img class="develop-by__developer-img" src="img/dev.png" alt="">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
